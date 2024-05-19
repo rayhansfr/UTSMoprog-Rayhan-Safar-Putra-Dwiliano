@@ -4,59 +4,49 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.fragment.app.Fragment
-import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class HomePageActivity : AppCompatActivity() {
-    private val homeFragment = HomeFragment()
-    private val beritaFragment = BeritaFragment()
-    private val profileFragment = ProfileFragment()
-    lateinit var bottomNav : BottomNavigationView
-
+class DetailBeritaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_home_page)
-
-        loadFragment(HomeFragment())
-        bottomNav = findViewById(R.id.bottomNav) as BottomNavigationView
-
-        bottomNav.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.home -> {
-                    loadFragment(homeFragment)
-                    true
-                }
-                R.id.berita -> {
-                    loadFragment(beritaFragment)
-                    true
-                }
-                R.id.profile -> {
-                    loadFragment(profileFragment)
-                    true
-                }
-
-                else -> {false}
-            }
-        }
-
+        setContentView(R.layout.activity_detail_berita)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
+        // Get data berita from intent
+        val beritaTitle = intent.getStringExtra("berita_title")
+        val beritaDate = intent.getStringExtra("berita_date")
+        val beritaDescription = intent.getStringExtra("berita_description")
+        val beritaImageResId = intent.getIntExtra("berita_image_res_id", R.drawable.neverlusen2)
+
+        // Set data to views
+        val detailBeritaImage = findViewById<ImageView>(R.id.detailBeritaImg)
+        val detailBeritaTitle = findViewById<TextView>(R.id.detailBeritaTitle)
+        val detailBeritaDate = findViewById<TextView>(R.id.detailBeritaDate)
+        val detailBeritaDescription = findViewById<TextView>(R.id.detailBeritaDescription)
+
+        detailBeritaImage.setImageResource(beritaImageResId)
+        detailBeritaTitle.text = beritaTitle
+        detailBeritaDate.text = beritaDate
+        detailBeritaDescription.text = beritaDescription
+
+
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.optionmenu,menu)
+        menuInflater.inflate(R.menu.optionmenu, menu)
         return super.onCreateOptionsMenu(menu)
     }
 
@@ -87,13 +77,4 @@ class HomePageActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
-
-    private fun loadFragment(fragment: Fragment){
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container,fragment)
-        transaction.commit()
-    }
-
-
-
 }

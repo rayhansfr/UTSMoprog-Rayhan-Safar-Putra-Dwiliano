@@ -1,19 +1,13 @@
 package pnj.uts.ti.rayhan_safar_putra_dwiliano
 
-import NewsAdapter
-import android.content.Context
-import android.content.Intent
+import pnj.uts.ti.rayhan_safar_putra_dwiliano.adapter.AdapterBerita
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.Button
 import android.widget.ListView
-import android.widget.TextView
-import android.widget.Toast
+import pnj.uts.ti.rayhan_safar_putra_dwiliano.model.BeritaModel
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -50,18 +44,74 @@ class BeritaFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         // Sample news data
-        val newsList = listOf(
-            News("News 1", R.drawable.berita1, "Description 1"),
-            News("News 2", R.drawable.berita1, "Description 2"),
-            News("News 3", R.drawable.berita1, "Description 3")
-            // Add more news items as needed
+        val beritaModelLists = listOf(
+            BeritaModel(
+                getString(R.string.title_bayer_neverlusen_treble),
+                R.drawable.neverlusen,
+                getString(R.string.date_bayer_neverlusen_treble),
+                getString(R.string.content_bayer_neverlusen_treble)
+            ),
+            BeritaModel(
+                getString(R.string.title_turkish_clubs_mourinho),
+                R.drawable.morinyo,
+                getString(R.string.date_turkish_clubs_mourinho),
+                getString(R.string.content_turkish_clubs_mourinho)
+            ),
+            BeritaModel(
+                getString(R.string.title_bayern_bad_season),
+                R.drawable.munchen,
+                getString(R.string.date_bayern_bad_season),
+                getString(R.string.content_bayern_bad_season)
+            ),
+            BeritaModel(
+                getString(R.string.title_bayer_leverkusen_records),
+                R.drawable.neverlusen2,
+                getString(R.string.date_bayer_leverkusen_records),
+                getString(R.string.content_bayer_leverkusen_records)
+            ),
+            BeritaModel(
+                getString(R.string.title_gp_emilia_romagna_qualification),
+                R.drawable.f1,
+                getString(R.string.date_gp_emilia_romagna_qualification),
+                getString(R.string.content_gp_emilia_romagna_qualification)
+            ),
+            BeritaModel(
+                getString(R.string.title_ktm_marquez),
+                R.drawable.marquez,
+                getString(R.string.date_ktm_marquez),
+                getString(R.string.content_ktm_marquez)
+            ),
+            BeritaModel(
+                getString(R.string.title_inter_miami_dc_united),
+                R.drawable.messi,
+                getString(R.string.date_inter_miami_dc_united),
+                getString(R.string.content_inter_miami_dc_united)
+            ),
+            BeritaModel(
+                getString(R.string.title_arsenal_rehearsal),
+                R.drawable.arsenal,
+                getString(R.string.date_arsenal_rehearsal),
+                getString(R.string.content_arsenal_rehearsal)
+            ),
+            BeritaModel(
+                getString(R.string.title_premier_league_schedule),
+                R.drawable.epl,
+                getString(R.string.date_premier_league_schedule),
+                getString(R.string.content_premier_league_schedule)
+            ),
+            BeritaModel(
+                getString(R.string.title_kevin_marcus),
+                R.drawable.kevin,
+                getString(R.string.date_kevin_marcus),
+                getString(R.string.title_kevin_marcus)
+            ),
         )
 
         // Initialize the ListView
         val listViewBerita = view.findViewById<ListView>(R.id.listViewBerita)
 
         // Create and set the custom adapter
-        val adapter = NewsAdapter(requireContext(), newsList)
+        val adapter = AdapterBerita(requireContext(), beritaModelLists)
         listViewBerita.adapter = adapter
     }
 

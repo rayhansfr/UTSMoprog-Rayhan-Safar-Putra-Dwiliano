@@ -1,5 +1,98 @@
 <resources>
     <string name="app_name">Pendataan Alumni</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descApp">Aplikasi pendataan alumni mahasiswa adalah solusi digital yang dirancang untuk memfasilitasi pelacakan dan pengelolaan informasi lulusan dari sebuah institusi pendidikan. Dengan fitur-fitur canggih seperti database terpusat, pencarian data alumni berdasarkan tahun kelulusan, program studi, dan lokasi kerja, serta integrasi dengan media sosial, aplikasi ini memungkinkan institusi untuk menjaga hubungan yang erat dengan para alumni. Selain itu, aplikasi ini juga menyediakan platform bagi alumni untuk tetap terhubung satu sama lain, berbagi informasi karir, dan berpartisipasi dalam acara atau reuni yang diselenggarakan oleh kampus. Dengan antarmuka yang user-friendly dan keamanan data yang terjamin, aplikasi ini menjadi alat yang penting untuk membangun jaringan alumni yang kuat dan mendukung perkembangan karir para lulusan."</string>
+    <string name="descApp2">Aplikasi ini tidak hanya memperkuat ikatan antara alumni dan institusi, tetapi juga membuka peluang kolaborasi dan pengembangan profesional yang berkelanjutan. Dengan demikian, aplikasi pendataan alumni mahasiswa menjadi investasi berharga untuk masa depan yang lebih baik bagi semua pihak yang terlibat."</string>
+
+
+    <string name="title_kevin_marcus">PBSI Siapkan Acara Perpisahan Kevin/Marcus Saat Indonesia Open 2024</string>
+    <string name="date_kevin_marcus">Minggu, 19 Mei 2024 02:45 WIB</string>
+    <string name="content_kevin_marcus">
+    Pesta perpisahan Kevin Sanjaya Sukamuljo/Marcus Fernaldi Gideon dijadwalkan berlangsung di Indonesia Open 2024. Acara itu sebagai apresiasi atas prestasi yang pernah ditorehkan keduanya.
+
+    Seperti diketahui, Kevin Sanjaya telah memutuskan untuk mundur dari Pelatnas PBSI pada 15 Mei 2024. Namun, pengumuman resminya baru disampaikan PBSI, melalui Kabid Binpres Ricky Soebagdja, di Cipayung, Kamis (16/5).
+
+    Kabar mundur Kevin sekaligus memperjelas spekulasi yang selama dua bulan berkembang bahwa Minions bakal bubar, setelah Marcus terlebih dulu memutuskan untuk pensiun pada 9 Maret lalu.
+    </string>
+
+    <string name="title_ktm_marquez">KTM Akui Tak Realistis Rekrut Marc Marquez</string>
+    <string name="date_ktm_marquez">Sabtu, 18 Mei 2024 04:15 WIB</string>
+    <string name="content_ktm_marquez">
+        KTM menutup peluang merekrut Marc Marquez untuk MotoGP 2025. Direktur KTM Pit Beirer meyakini, Marquez masih akan menunggangi Ducati.
+
+        Juara dunia delapan kali itu punya kontrak dengan Gresini hanya sampai akhir musim nanti. Marquez digadang-gadang akan dipromosikan ke tim pabrikan Ducati, sekalipun ada asumsi kepindahan itu diragukan menyoal potensi disharmoni dengan Francesco Bagnaia.
+    </string>
+
+    <string name="title_premier_league_schedule">Jadwal Liga Inggris Nanti Malam, Manchester City atau Arsenal yang Juara?</string>
+    <string name="date_premier_league_schedule">Minggu, 19 Mei 2024 10:30 WIB</string>
+    <string name="content_premier_league_schedule">
+        Liga Inggris 2023/2024 menggelar pekan terakhirnya nanti malam. Laga penentuan juara antara Manchester City dan Arsenal digelar serentak. Siapa yang berjaya?
+
+        Liga Inggris 2023/2024 memasuki pekan terakhirnya. Dua tim mengecurut menjadi kandidat juara. Manchester City dan Arsenal adalah tim yang harus bersaing hingga pekan terakhir. Sebab, perolehan poinnya cukup ketat hingga pekan ke-37.
+    </string>
+
+    <string name="title_arsenal_rehearsal">Arsenal Gelar Gladi Resik Angkat Trofi Liga Inggris di Emirates</string>
+    <string name="date_arsenal_rehearsal">Minggu, 19 Mei 2024 09:40 WIB</string>
+    <string name="content_arsenal_rehearsal">
+        London - Arsenal bersaing dengan Manchester City meraih trofi di pekan terakhir Liga Inggris. Meriam London sudah melakukan gladi resik prosesi pengangkatan piala juara.
+
+        City dan Arsenal harus menentukan juara di pekan terakhir Liga Inggris. Kedua tim hanya berselisih dua angka hingga pekan ke-37.
+
+        The Citizen kini memimpin klasemen Liga Inggris dengan 88 poin dari 37 laga. Sementara The Gunners di posisi dua dengan 86 poin.
+    </string>
+
+    <string name="title_inter_miami_dc_united">Inter Miami Vs DC United: Lionel Messi dkk Susah Payah Menang 1–0</string>
+    <string name="date_inter_miami_dc_united">Minggu, 19 Mei 2024 09:17 WIB</string>
+    <string name="content_inter_miami_dc_united">
+        Fort Lauderdale - Inter Miami susah payah saat melawan DC United, dalam lanjutan kompetisi Major League Soccer 2024. Lionel Messi dkk menang 1-0.
+
+        Bermain di Chase Stadium, Fort Lauderdale, Florida, AS, Minggu (19/5) pagi WIB, Messi kembali dimainkan Inter Miami usai sempat absen di laga melawan Orlando. La Pulga menjadi motor serangan di tengah.
+
+        Meski begitu, Inter Miami cukup kerepotan sejak awal. DC United bisa banyak mengancam lewat aksi Christian Benteke dan Pedro Santos.
+    </string>
+
+    <string name="title_bayer_neverlusen_treble">Bayer Neverlusen Menuju Treble: 1 Down, 2 to Go</string>
+    <string name="date_bayer_neverlusen_treble">Minggu, 19 Mei 2024 09:00 WIB</string>
+    <string name="content_bayer_neverlusen_treble">
+        Leverkusen - Bayer Leverkusen resmi jadi juara Bundesliga 2023/2024 tanpa terkalahkan. Satu misi selesai, Die Werkself mengincar dua target lainnya lagi. Top!.
+
+        Leverkusen menuntaskan musim dengan menjamu Augsburg di BayArena, Sabtu (18/5/2024) malam WIB. Mereka menang dengan skor 2-1 lewat gol-gol Victor Boniface dan Robert Andrich yang dibalas gol Mert Konur.
+
+        Leverkusen resmi jadi tim Bundesliga pertama yang jadi juara tanpa satu pun kekalahan, yakni 28 kemenangan dan enam seri. Total 90 poin dikumpulkan pasukan Xabi Alonso itu, hanya berjarak satu poin dari rekor poin Bayern Munich di musim 2012/2013.
+    </string>
+
+    <string name="title_turkish_clubs_mourinho">Klub-klub Turki Ngebet Pakai Jasa Jose Mourinho</string>
+    <string name="date_turkish_clubs_mourinho">Minggu, 19 Mei 2024 08:30 WIB</string>
+    <string name="content_turkish_clubs_mourinho">
+        Istanbul - Jose Mourinho masih menganggur saat ini, usai dipecat AS Roma. Klub-klub Turki ngebet menggunakan jasa pelatih asal Portugal itu.
+
+        Mourinho dipecat Roma awal tahun ini. Ia digantikan Daniele De Rossi, meski sudah membawa gelar Conference League dan menjadi runner up Liga Europa musim lalu.
+    </string>
+
+    <string name="title_bayern_bad_season">Musim Buruk yang Ingin Segera Dilupakan Bayern Munich</string>
+    <string name="date_bayern_bad_season">Minggu, 19 Mei 2024 08:00 WIB</string>
+    <string name="content_bayern_bad_season">
+        Munich - Bayern Munich gagal total di semua kompetisi musim ini. Thomas Mueller cs ingin segera melupakan hasil-hasil buruk itu dan fokus ke musim depan.
+
+        Kekalahan didapat Bayern pada pekan penutup Liga Jerman, Sabtu (18/5/2024) malam WIB. Die Roten dipermalukan 2-4 saat bertandang ke markas Hoffenheim.
+    </string>
+
+    <string name="title_bayer_leverkusen_records">Bayer Leverkusen dan Rekor-rekor Neverlusen Musim Ini</string>
+    <string name="date_bayer_leverkusen_records">Minggu, 19 Mei 2024 07:30 WIB</string>
+    <string name="content_bayer_leverkusen_records">
+        Leverkusen - Bayer Leverkusen keluar sebagai juara Bundesliga dengan status tak terkalahkan. Sederet rekor mentereng mengiringi perjalanan pasukan Xabi Alonso.
+
+        Sejarah baru tercipta usai Leverkusen mengalahkan Augsburg 2-1 di BayArena, Sabtu (19/5/2024) malam WIB. Die Werkself mengakhiri satu musim Liga Jerman tanpa menelan kekalahan.
+    </string>
+
+    <string name="title_gp_emilia_romagna_qualification">Kualifikasi GP Emilia Romagna: Asapi Duo McLaren, Verstappen Pole</string>
+    <string name="date_gp_emilia_romagna_qualification">Minggu, 19 Mei 2024 02:45 WIB</string>
+    <string name="content_gp_emilia_romagna_qualification">
+        Imola - Max Verstappen tampil prima untuk meraih pole position di Kualifikasi GP Emilia Romagna. Dia mengasapi duo McLaren Oscar Piastri dan Lando Norris.
+
+        Kualifikasi dihelat di sirkuit Autodromo Enzo Dino Ferrari, Sabtu (18/5/2024) malam WIB. Sedari Q1, pebalap Red Bull Racing Verstappen sudah ngegas dan tidak tersaingi lawan-lawannya.
+
+        Memasuki Q3, Verstappen langsung mencatatkan waktu 1 menit 14,869 detik, lebih cepat 0,073 dari Norris dan 0,147 detik dari Charles Leclerc.
+    </string>
+
 </resources>

@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     tools:context=".ProfileFragment"
     android:orientation="vertical"
-    android:paddingVertical="40dp"
+    android:paddingVertical="20dp"
+    android:layout_marginTop="60dp"
     android:layout_marginHorizontal="24dp"
     >
 

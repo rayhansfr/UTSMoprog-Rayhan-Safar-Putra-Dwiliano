@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     tools:context=".HomeFragment"
     android:orientation="vertical"
-    android:paddingVertical="40dp"
+    android:paddingVertical="20dp"
+    android:layout_marginTop="60dp"
     android:layout_marginHorizontal="24dp"
     >
 
@@ -27,12 +28,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:justificationMode="inter_word"
-            android:text="Aplikasi pendataan alumni mahasiswa adalah solusi digital yang dirancang untuk memfasilitasi pelacakan dan pengelolaan informasi lulusan dari sebuah institusi pendidikan. Dengan fitur-fitur canggih seperti database terpusat, pencarian data alumni berdasarkan tahun kelulusan, program studi, dan lokasi kerja, serta integrasi dengan media sosial, aplikasi ini memungkinkan institusi untuk menjaga hubungan yang erat dengan para alumni. Selain itu, aplikasi ini juga menyediakan platform bagi alumni untuk tetap terhubung satu sama lain, berbagi informasi karir, dan berpartisipasi dalam acara atau reuni yang diselenggarakan oleh kampus. Dengan antarmuka yang user-friendly dan keamanan data yang terjamin, aplikasi ini menjadi alat yang penting untuk membangun jaringan alumni yang kuat dan mendukung perkembangan karir para lulusan."
+            android:text="@string/descApp"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aplikasi ini tidak hanya memperkuat ikatan antara alumni dan institusi, tetapi juga membuka peluang kolaborasi dan pengembangan profesional yang berkelanjutan. Dengan demikian, aplikasi pendataan alumni mahasiswa menjadi investasi berharga untuk masa depan yang lebih baik bagi semua pihak yang terlibat."
+            android:text="@string/descApp2"
             />
 
     </LinearLayout>
